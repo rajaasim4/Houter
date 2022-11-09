@@ -1,0 +1,29 @@
+.Footer_blur {
+  background: linear-gradient(
+    90deg,
+    rgba(130, 187, 255, 1) 0%,
+    rgba(185, 255, 130, 1) 100%
+  );
+  width: 40vw;
+  height: 40vh;
+  filter: blur(120px);
+  z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .Social {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  .Footer_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Footer_sub p {
+    text-align: center;
+  }
+  .Footer_sub address {
+    text-align: center;
+  }
+}

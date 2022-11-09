@@ -1,0 +1,26 @@
+.SellAndBuy {
+  position: relative;
+}
+.SellAndBuy_blur {
+  position: absolute;
+  width: 438px;
+  height: 494px;
+  background: #82ffe8;
+  opacity: 0.3;
+  filter: blur(120px);
+  z-index: -1;
+}
+@media screen and (max-width: 426px) {
+  .Buy_sell_profile {
+    margin: 10px 0px;
+  }
+  .SellAndBuy_blur {
+    width: 100%;
+  }
+  .sellandbuy_img img {
+    width: 100%;
+  }
+  .Buy_time {
+    margin-bottom: 10px;
+  }
+}

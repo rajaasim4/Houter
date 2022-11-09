@@ -1,0 +1,13 @@
+.Subscribe {
+  background: linear-gradient(
+    90deg,
+    rgba(148, 192, 247, 1) 0%,
+    rgba(249, 251, 251, 1) 51%,
+    rgba(182, 229, 237, 1) 100%
+  );
+}
+@media screen and (max-width: 426px) {
+  .Subscribe_btn {
+    padding: 10px 30px;
+  }
+}

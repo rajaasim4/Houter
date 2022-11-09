@@ -1,0 +1,92 @@
+header {
+  position: relative;
+  background-image: url("../../Assets/Banner_bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50% 100%;
+  width: 100%;
+  height: 720px;
+  background-attachment: fixed;
+}
+.Banner_blur_bg {
+  position: absolute;
+  height: 523px;
+  width: 741px;
+  background: #82f7ff;
+  opacity: 0.3;
+  filter: blur(40px);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.Banner_main_text {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: capitalize;
+
+  /* MRT App / Headline */
+
+  color: #1b1c57;
+}
+.Banner_main_text span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.5px #1b1c57;
+}
+.Banner_search {
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #e0e3eb;
+  border-radius: 15px;
+}
+.Banner_search input {
+  width: 70%;
+  outline: 0;
+}
+.green_btn {
+  height: 48px;
+  background: #10b981;
+  border-radius: 15px;
+  padding: 10px 40px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
+}
+.sponsor_img {
+  width: 20%;
+  object-fit: contain;
+}
+@media screen and (max-width: 768px) {
+  header {
+    height: max-content;
+    background-size: 60% 100%;
+  }
+  .sponsor_img {
+    width: 40%;
+    object-fit: contain;
+    image-rendering: optimizeSpeed;
+  }
+}
+@media screen and (max-width: 426px) {
+  header {
+    background-size: cover;
+  }
+  .Banner_blur_bg {
+    display: none;
+  }
+  .Banner_main_text {
+    line-height: 50px;
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Banner_search svg {
+    display: none;
+  }
+  .Banner_search input {
+    padding: 0px !important;
+  }
+}

@@ -1,0 +1,19 @@
+.house_details_btn {
+  padding: 10px 18px;
+}
+.house_detail_icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (max-width: 426px) {
+  .Contact_info h6 {
+    font-size: 14px;
+  }
+  .house_detail_icon {
+    justify-content: space-between;
+  }
+  .house_detail_list {
+    margin-top: 20px;
+  }
+}

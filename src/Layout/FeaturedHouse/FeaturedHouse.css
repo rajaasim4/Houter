@@ -1,0 +1,44 @@
+.Featured_btn {
+  /* width: 135px; */
+  padding: 0px 40px;
+  height: 52px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* Green / 100 */
+
+  background: #d1fae5;
+  border-radius: 32px;
+  outline: none;
+  border: none;
+  color: green;
+}
+.Featured_btn_nonactive {
+  padding: 0px 40px;
+  height: 52px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* Green / 100 */
+
+  background: #ffffff;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 32px;
+  outline: none;
+}
+
+@media screen and (max-width: 426px) {
+  .mdt {
+    margin-top: 10px;
+  }
+  .mySwiper2 {
+    padding: 10px 0px;
+    height: max-content !important;
+  }
+  .swiper_col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
