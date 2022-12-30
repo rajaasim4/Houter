@@ -68,83 +68,85 @@ const FeaturedHouse = () => {
         </Row>
       </Container>
       <Container className="">
-        <Row>
-          <Swiper
-            spaceBetween={30}
-            allowSlideNext={true}
-            allowSlidePrev={true}
-            navigation={true}
-            slidesPerView={4}
-            pagination={{
-              clickable: true,
-            }}
-            loop={true}
-            autoplay={true}
-            modules={[Autoplay, Navigation]}
-            className="mySwiper w-100"
-            breakpoints={{
-              0: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-              },
+        <Row className="p-0">
+          <Col lg="12" md="12" className="p-0 m-0">
+            <Swiper
+              spaceBetween={30}
+              allowSlideNext={true}
+              allowSlidePrev={true}
+              navigation={true}
+              slidesPerView={4}
+              pagination={{
+                clickable: true,
+              }}
+              loop={true}
+              autoplay={true}
+              modules={[Autoplay, Navigation]}
+              className="mySwiper"
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
 
-              580: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-              },
+                580: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
 
-              1024: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-              },
-              1280: {
-                slidesPerView: 4,
-                spaceBetween: 40,
-              },
-            }}
-          >
-            <SwiperSlide>
-              <FeaturedHouseCard
-                src={fh1}
-                title={"RoselandsHouse"}
-                price={"35,000"}
-                avatar={Avatar1}
-                name={"Diabbe Russell"}
-                rank={"Dr. San Jose, South Dakota"}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <FeaturedHouseCard
-                src={fh2}
-                title={"Woodlandside"}
-                price={"20,000"}
-                avatar={Avatar2}
-                name={"Robert Fox"}
-                rank={"Manchester, Kentucky"}
-              />
-            </SwiperSlide>
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+                1280: {
+                  slidesPerView: 4,
+                  spaceBetween: 40,
+                },
+              }}
+            >
+              <SwiperSlide>
+                <FeaturedHouseCard
+                  src={fh1}
+                  title={"RoselandsHouse"}
+                  price={"35,000"}
+                  avatar={Avatar1}
+                  name={"Diabbe Russell"}
+                  rank={"Dr. San Jose, South Dakota"}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FeaturedHouseCard
+                  src={fh2}
+                  title={"Woodlandside"}
+                  price={"20,000"}
+                  avatar={Avatar2}
+                  name={"Robert Fox"}
+                  rank={"Manchester, Kentucky"}
+                />
+              </SwiperSlide>
 
-            <SwiperSlide>
-              <FeaturedHouseCard
-                src={fh3}
-                title={"The Old Lighthiuse"}
-                price={"44,000"}
-                avatar={Avatar3}
-                name={"Ronald Richard"}
-                rank={"Santa Ana, Illinois"}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <FeaturedHouseCard
-                src={fh44}
-                title={"Cosmo's House"}
-                price={"22,000"}
-                avatar={Avatar4}
-                name={"Jenny Wilson"}
-                rank={"Preston Rd. Inglewood, Maine 98380"}
-              />
-            </SwiperSlide>
-          </Swiper>
+              <SwiperSlide>
+                <FeaturedHouseCard
+                  src={fh3}
+                  title={"The Old Lighthiuse"}
+                  price={"44,000"}
+                  avatar={Avatar3}
+                  name={"Ronald Richard"}
+                  rank={"Santa Ana, Illinois"}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FeaturedHouseCard
+                  src={fh44}
+                  title={"Cosmo's House"}
+                  price={"22,000"}
+                  avatar={Avatar4}
+                  name={"Jenny Wilson"}
+                  rank={"Preston Rd. Inglewood, Maine 98380"}
+                />
+              </SwiperSlide>
+            </Swiper>
+          </Col>
         </Row>
       </Container>
     </>
