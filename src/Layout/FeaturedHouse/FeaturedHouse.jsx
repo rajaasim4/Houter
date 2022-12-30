@@ -79,7 +79,7 @@ const FeaturedHouse = () => {
               pagination={{
                 clickable: true,
               }}
-              loop={true}
+              rewind={true}
               autoplay={true}
               modules={[Autoplay, Navigation]}
               className="mySwiper"
