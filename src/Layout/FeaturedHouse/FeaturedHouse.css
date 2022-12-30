@@ -58,9 +58,7 @@
     padding: 10px 0px;
     height: max-content !important;
   }
-  .swiper_col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ .featuredhouseswiper{
+  height: 440px;
+ }
 }
