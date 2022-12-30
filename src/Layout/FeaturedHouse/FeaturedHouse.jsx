@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import { BsHouseDoorFill } from "react-icons/bs";
 import { MdApartment, MdVilla } from "react-icons/md";
-import { Autoplay } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Avatar1 from "../../Assets/Avatar1.svg";
@@ -70,6 +70,11 @@ const FeaturedHouse = () => {
       <Container className="">
         <Row>
           <Swiper
+            spaceBetween={30}
+            rewind={true}
+            allowSlideNext={true}
+            allowSlidePrev={true}
+            navigation={true}
             slidesPerView={4}
             spaceBetween={20}
             pagination={{
@@ -77,8 +82,8 @@ const FeaturedHouse = () => {
             }}
             loop={true}
             autoplay={true}
+            modules={[Autoplay, Navigation]}
             className="mySwiper2 py-3 w-100"
-            modules={[Autoplay]}
             breakpoints={{
               0: {
                 slidesPerView: 1,
