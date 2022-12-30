@@ -81,7 +81,7 @@ const FeaturedHouse = () => {
             loop={true}
             autoplay={true}
             modules={[Autoplay, Navigation]}
-            className="mySwiper2 w-100"
+            className="mySwiper w-100"
             breakpoints={{
               0: {
                 slidesPerView: 1,
