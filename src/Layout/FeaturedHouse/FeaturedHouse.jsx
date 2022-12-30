@@ -80,75 +80,74 @@ const FeaturedHouse = () => {
             className="mySwiper2 py-3 w-100"
             modules={[Autoplay]}
             breakpoints={{
-              // when window width is >= 320px
               0: {
                 slidesPerView: 1,
                 spaceBetween: 20,
               },
 
-              480: {
+              580: {
                 slidesPerView: 2,
                 spaceBetween: 10,
               },
-              // when window width is >= 640px
-              1000: {
+
+              1024: {
                 slidesPerView: 3,
                 spaceBetween: 40,
               },
-              1025: {
+              1280: {
                 slidesPerView: 4,
                 spaceBetween: 40,
               },
             }}
           >
             <SwiperSlide>
-              <Col lg="3" md="8" sm="12" className="swiper_col">
-                <FeaturedHouseCard
-                  src={fh1}
-                  title={"RoselandsHouse"}
-                  price={"35,000"}
-                  avatar={Avatar1}
-                  name={"Diabbe Russell"}
-                  rank={"Dr. San Jose, South Dakota"}
-                />
-              </Col>
+              {/* <Col lg="3" md="8" sm="12" className="swiper_col"> */}
+              <FeaturedHouseCard
+                src={fh1}
+                title={"RoselandsHouse"}
+                price={"35,000"}
+                avatar={Avatar1}
+                name={"Diabbe Russell"}
+                rank={"Dr. San Jose, South Dakota"}
+              />
+              {/* </Col> */}
             </SwiperSlide>
             <SwiperSlide>
-              <Col lg="3" md="8" sm="12" className="swiper_col">
-                <FeaturedHouseCard
-                  src={fh2}
-                  title={"Woodlandside"}
-                  price={"20,000"}
-                  avatar={Avatar2}
-                  name={"Robert Fox"}
-                  rank={"Manchester, Kentucky"}
-                />
-              </Col>
+              {/* <Col lg="3" md="8" sm="12" className="swiper_col"> */}
+              <FeaturedHouseCard
+                src={fh2}
+                title={"Woodlandside"}
+                price={"20,000"}
+                avatar={Avatar2}
+                name={"Robert Fox"}
+                rank={"Manchester, Kentucky"}
+              />
+              {/* </Col> */}
             </SwiperSlide>
 
             <SwiperSlide>
-              <Col lg="3" md="8" sm="12" className="swiper_col">
-                <FeaturedHouseCard
-                  src={fh3}
-                  title={"The Old Lighthiuse"}
-                  price={"44,000"}
-                  avatar={Avatar3}
-                  name={"Ronald Richard"}
-                  rank={"Santa Ana, Illinois"}
-                />
-              </Col>
+              {/* <Col lg="3" md="8" sm="12" className="swiper_col"> */}
+              <FeaturedHouseCard
+                src={fh3}
+                title={"The Old Lighthiuse"}
+                price={"44,000"}
+                avatar={Avatar3}
+                name={"Ronald Richard"}
+                rank={"Santa Ana, Illinois"}
+              />
+              {/* </Col> */}
             </SwiperSlide>
             <SwiperSlide>
-              <Col lg="3" md="8" sm="12" className="swiper_col">
-                <FeaturedHouseCard
-                  src={fh44}
-                  title={"Cosmo's House"}
-                  price={"22,000"}
-                  avatar={Avatar4}
-                  name={"Jenny Wilson"}
-                  rank={"Preston Rd. Inglewood, Maine 98380"}
-                />
-              </Col>
+              {/* <Col lg="3" md="8" sm="12" className="swiper_col"> */}
+              <FeaturedHouseCard
+                src={fh44}
+                title={"Cosmo's House"}
+                price={"22,000"}
+                avatar={Avatar4}
+                name={"Jenny Wilson"}
+                rank={"Preston Rd. Inglewood, Maine 98380"}
+              />
+              {/* </Col> */}
             </SwiperSlide>
 
             {/* <SwiperSlide>
