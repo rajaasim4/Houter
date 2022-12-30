@@ -101,7 +101,6 @@ const FeaturedHouse = () => {
             }}
           >
             <SwiperSlide>
-              {/* <Col lg="3" md="8" sm="12" className="swiper_col"> */}
               <FeaturedHouseCard
                 src={fh1}
                 title={"RoselandsHouse"}
@@ -110,10 +109,8 @@ const FeaturedHouse = () => {
                 name={"Diabbe Russell"}
                 rank={"Dr. San Jose, South Dakota"}
               />
-              {/* </Col> */}
             </SwiperSlide>
             <SwiperSlide>
-              {/* <Col lg="3" md="8" sm="12" className="swiper_col"> */}
               <FeaturedHouseCard
                 src={fh2}
                 title={"Woodlandside"}
@@ -122,11 +119,9 @@ const FeaturedHouse = () => {
                 name={"Robert Fox"}
                 rank={"Manchester, Kentucky"}
               />
-              {/* </Col> */}
             </SwiperSlide>
 
             <SwiperSlide>
-              {/* <Col lg="3" md="8" sm="12" className="swiper_col"> */}
               <FeaturedHouseCard
                 src={fh3}
                 title={"The Old Lighthiuse"}
@@ -135,10 +130,8 @@ const FeaturedHouse = () => {
                 name={"Ronald Richard"}
                 rank={"Santa Ana, Illinois"}
               />
-              {/* </Col> */}
             </SwiperSlide>
             <SwiperSlide>
-              {/* <Col lg="3" md="8" sm="12" className="swiper_col"> */}
               <FeaturedHouseCard
                 src={fh44}
                 title={"Cosmo's House"}
@@ -147,58 +140,7 @@ const FeaturedHouse = () => {
                 name={"Jenny Wilson"}
                 rank={"Preston Rd. Inglewood, Maine 98380"}
               />
-              {/* </Col> */}
             </SwiperSlide>
-
-            {/* <SwiperSlide>
-              <Col lg="3" md="8" sm="12" className="swiper_col">
-                <FeaturedHouseCard
-                  src={fh1}
-                  title={"RoselandsHouse"}
-                  price={"35,000"}
-                  avatar={Avatar1}
-                  name={"Diabbe Russell"}
-                  rank={"Dr. San Jose, South Dakota"}
-                />
-              </Col>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Col lg="3" md="8" sm="12" className="swiper_col">
-                <FeaturedHouseCard
-                  src={fh2}
-                  title={"Woodlandside"}
-                  price={"20,000"}
-                  avatar={Avatar2}
-                  name={"Robert Fox"}
-                  rank={"Manchester, Kentucky"}
-                />
-              </Col>
-            </SwiperSlide>
-
-            <SwiperSlide className="">
-              <Col lg="3" md="12" sm="12" className="swiper_col">
-                <FeaturedHouseCard
-                  src={fh3}
-                  title={"The Old Lighthiuse"}
-                  price={"44,000"}
-                  avatar={Avatar3}
-                  name={"Ronald Richard"}
-                  rank={"Santa Ana, Illinois"}
-                />
-              </Col>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Col lg="3" md="12" sm="12" className="swiper_col">
-                <FeaturedHouseCard
-                  src={fh44}
-                  title={"Cosmo's House"}
-                  price={"22,000"}
-                  avatar={Avatar4}
-                  name={"Jenny Wilson"}
-                  rank={"Preston Rd. Inglewood, Maine 98380"}
-                />
-              </Col>
-            </SwiperSlide> */}
           </Swiper>
         </Row>
       </Container>
