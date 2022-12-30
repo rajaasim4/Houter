@@ -71,19 +71,17 @@ const FeaturedHouse = () => {
         <Row>
           <Swiper
             spaceBetween={30}
-            rewind={true}
             allowSlideNext={true}
             allowSlidePrev={true}
             navigation={true}
             slidesPerView={4}
-            spaceBetween={20}
             pagination={{
               clickable: true,
             }}
             loop={true}
             autoplay={true}
             modules={[Autoplay, Navigation]}
-            className="mySwiper2 py-3 w-100"
+            className="mySwiper2 w-100"
             breakpoints={{
               0: {
                 slidesPerView: 1,
@@ -92,12 +90,12 @@ const FeaturedHouse = () => {
 
               580: {
                 slidesPerView: 2,
-                spaceBetween: 10,
+                spaceBetween: 20,
               },
 
               1024: {
                 slidesPerView: 3,
-                spaceBetween: 40,
+                spaceBetween: 30,
               },
               1280: {
                 slidesPerView: 4,
