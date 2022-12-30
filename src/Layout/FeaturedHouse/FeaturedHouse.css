@@ -55,10 +55,10 @@
     margin-top: 10px;
   }
   .mySwiper2 {
+  }
+  .featuredhouseswiper{
     padding: 10px 0px;
     height: max-content !important;
-  }
- .featuredhouseswiper{
-  height: max-content!important;
+  /* height: ; */
  }
 }
